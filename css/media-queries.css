@@ -1,0 +1,45 @@
+/*mobile*/
+@media screen and (max-width:991px) {
+    .alert-info {
+        background-color: rgb(214, 254, 254);
+        border: 2px solid darkgray;
+        padding: 10px;
+    }
+    body {
+        text-align: center;
+        width: 339px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    li {
+        background-color: darkgray;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .header-img>img {
+        width: 339px;
+        height: 224px;
+    }
+    section.main {
+        text-align: left;
+    }
+    section.sub-section {
+        text-align: left;
+        font-style: italic;
+    }
+    footer {
+        text-align: left;
+        font-size: small;
+    }
+}
+/*desktop*/
+@media screen and (min-width:992px) {
+    .hidden-on-desktop {
+        display:none;
+    }
+
+}

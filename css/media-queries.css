@@ -41,5 +41,37 @@
     .hidden-on-desktop {
         display:none;
     }
+.nav-links{
+    list-style: none;
+    top: 20px;
+    right: 0px;
+    position: absolute;
 
+}
+li{
+    float:right;
+    padding: 5px;
+}
+    ul {
+        transform: rotate(180deg);
+        padding-left: 10px;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 0;
+    }
+    ul > li {
+        transform: rotate(-180deg);
+    }
+    .header-img>img {
+        width: 100%;
+    }
+    section.main{
+        float: left;
+        width: 75%;
+    }
+    section.sub-section{
+        float: left;
+        width: 25%;
+        font-style: italic;
+    }
 }
